@@ -189,7 +189,48 @@ body{
 .content-sobre img{
     max-width: 31.875em
     var(--background)
+
 }
+
+.jogos{
+    width: 100%;
+    height: 7.5em;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.jogos-aovivo, .jogos-embreve{
+    font-size: 1.875em;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.partida{
+    width: 9.5em;
+    /* background-color: violet; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+.time1, .time2{
+    align-items: center;
+    display: flex;
+}
+.partida img{
+    width: 1.8em;
+}
+.time1 img{
+    margin-left: 0.5em;
+}
+.time2 img{
+    margin-right: 0.5em;
+}
+.linha{
+    height: 4.5em;
+    border: solid 1px white;
+}
+
 
 /* até 1199px */
 @media screen and (max-width:74.93em){
