@@ -177,6 +177,7 @@ body{
 .texto-sobre{
     width: 40%;
     text-align: justify;
+    font: var(--font);
 }
 .texto-sobre h2{
     font-size: 2.187em;
