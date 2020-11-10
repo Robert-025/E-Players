@@ -251,6 +251,7 @@ body{
     width: 100%;
     height: auto;
     background-color: var(--bgnoticias);
+    padding-bottom: 1.5em;
 }
 .noticias{
     width: 70%;
@@ -317,8 +318,64 @@ body{
 .proximas-partidas > p{
     margin-top: 1em;
 }
-
-
+.rodape{
+    width: 100%;
+    height: 14.375em;
+}
+.imagem-rodape{
+    width: 19.06em;
+}
+.links-rodape{
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+}
+.links{
+    color: #ffffff;
+}
+.links a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.links ul{
+    padding-left: 1.8em;
+}
+.sociais {
+    color: #ffffff;
+}
+.sociais h2{
+    font-size: 0.875em;
+    margin-bottom: 0.5em;
+}
+.sociais form{
+    display: flex;
+    align-items: center;
+}
+.sociais input[type="email"]{
+    width: 12.1825em;
+    height: 2.3125em;
+}
+.sociais input[type="email"]::placeholder{
+    color: #b8b3b3;
+    font-weight: 700;
+}
+.sociais input[type="submit"]{
+    width: 9.75em;
+    color: #ffffff;
+    background-color: #8326ef;
+    font-size: 1.1em;
+    font-weight: 700;
+    height: 1.75em;
+}
+.siga-nos{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+    
+    
 /* até 1199px */
 @media screen and (max-width:74.93em){
 
